@@ -23,54 +23,66 @@ export default ({ search }) => (
     <RuleSection
       number='1'
       title='Abilities'
-      related={['Action Cards', 'Promissory Notes', 'Strategy Card', 'Technology']}>
+      related={['Action Cards', 'Leaders', 'Promissory Notes', 'Strategy Card', 'Technology']}>
       <RuleText>Cards and faction sheets each have abilities that players can resolve to trigger various game effects.</RuleText>
 
-      <RuleText number='1.1'>Each ability describes when and how a player can resolve it.</RuleText>
-      <RuleText number='1.2'>If a card has multiple abilities, each ability is presented as its own paragraph.</RuleText>
-      <RuleText number='1.3'>If an ability contains the word “Action,” a player must use a component action during the action phase to resolve that ability.</RuleText>
-      <RuleText number='1.4'>If an ability uses the word “cannot,” that effect is absolute.</RuleText>
-      <RuleText number='1.5'>When a player resolves an ability, he must resolve the ability in its entirety. Any parts of the ability preceded by the word “may” are optional, and the player resolving the ability may choose not to resolve those parts.</RuleText>
-      <RuleText number='1.6'>Abilities on components that remain in play are mandatory unless they use the word "may."</RuleText>
-      <RuleText number='1.7'>If an ability has multiple effects separated by the word “and,” a player must resolve as many of the ability’s effects as possible. However, if he cannot resolve all of its effects, he is allowed to resolve as many as he can.</RuleText>
-      <RuleText number='1.8' subheading='Costs' />
-      <RuleText number='1.9'>Some abilities have a cost that is followed by an effect. The cost of an ability is separated from the effect by the word “to” or by a semicolon. A player cannot resolve the effect of such an ability if he cannot resolve that ability’s cost.</RuleText>
-      <RuleText number='1.10'>Some examples of an ability’s cost include spending resources, spending trade goods, spending command tokens, exhausting cards, and activating specific systems.</RuleText>
-      <RuleText number='1.11' subheading='Timing' />
-      <RuleText number='1.12'>If the timing of an ability uses the word “before” or “after,” the ability’s effect occurs immediately before or after the described timing event, respectively.
+      <RuleText number='1.1'>If information in this Rules Reference contradicts the Learn to Play booklet, the Rules Reference takes precedence.</RuleText>
+      <RuleText number='1.2'>If a card ability contradicts information in the Rules Reference, the card takes precedence. If both the card and the rules can be followed at the same time, they should be.</RuleText>
+      <RuleText number='1.3'>Each ability describes when and how a player can resolve it.
         <ul>
-          <li>For example, if an ability is resolved “after a ship is destroyed,” the ability must be resolved as soon as the ship is destroyed and not later during that turn or round.</li>
-          <li>After the last round of a combat, abilities that occur “after a round of combat” and “after combat ends” occur during the same timing window. Likewise, at the start of the first round of combat, abilities that occur “at the start of combat” and “at the start of a round of combat” occur during the same timing window. The order of resolution for these abilities follows the rules established in the timing section.</li>
+          <li>If an ability with a specified duration is resolved, the effect of the ability remains through that duration, even if the component that caused the ability is removed.</li>
         </ul>
       </RuleText>
-      <RuleText number='1.13'>If the timing of an ability uses the word “when,” the ability’s effect occurs at the moment of the described timing event.
+      <RuleText number='1.4'>If a card has multiple abilities, each ability is presented as its own paragraph.</RuleText>
+      <RuleText number='1.5'>If an ability contains the word “Action,” a player must use a component action during the action phase to resolve that ability.</RuleText>
+      <RuleText number='1.6'>If an ability uses the word “cannot,” that effect is absolute.
+        <ul>
+          <li>If two abilities use the word “cannot,” a persistent ability takes precedence over a one-time ability and an enabling ability takes precedence over a cancel ability.</li>
+        </ul>
+      </RuleText>
+      <RuleText number='1.7'>When a player resolves an ability, he must resolve the ability in its entirety. Any parts of the ability preceded by the word “may” are optional, and the player resolving the ability may choose not to resolve those parts.</RuleText>
+      <RuleText number='1.8'>Abilities on components that remain in play are mandatory unless they use the word "may."</RuleText>
+      <RuleText number='1.9'>If an ability has multiple effects separated by the word “and,” a player must resolve as many of the ability’s effects as possible. However, if he cannot resolve all of its effects, he is allowed to resolve as many as he can.</RuleText>
+      <RuleText number='1.10' subheading='Costs' />
+      <RuleText number='1.11'>Some abilities have a cost that is followed by an effect. The cost of an ability is separated from the effect by the word “to” or by a semicolon. A player cannot resolve the effect of such an ability if he cannot resolve that ability’s cost.</RuleText>
+      <RuleText number='1.12'>Some examples of an ability’s cost include spending resources, spending trade goods, spending command tokens, exhausting cards, purging cards, and activating specific systems.</RuleText>
+      <RuleText number='1.13' subheading='Timing' />
+      <RuleText number='1.14'>If the timing of an ability uses the word “before” or “after,” the ability’s effect occurs immediately before or after the described timing event, respectively.
+        <ul>
+          <li>For example, if an ability is resolved “after a ship is destroyed,” the ability must be resolved as soon as the ship is destroyed and not later during that turn or round.</li>
+        </ul>
+      </RuleText>
+      <RuleText number='1.15'>If the timing of an ability uses the word “when,” the ability’s effect occurs at the moment of the described timing event.
       <ul>
           <li>Such an ability typically modifies or replaces the timing event in some way.</li>
         </ul>
       </RuleText>
-      <RuleText number='1.14'>Effects that occur “when” an event happens take priority over effects that occur “after” an event happens.</RuleText>
-      <RuleText number='1.15'>If an ability uses the word “then,” a player must resolve the effect that occurs before the word “then” before resolving the effect that occurs after the word “then.”</RuleText>
-      <RuleText number='1.16'>Each ability can be resolved once for each occurrence of that ability’s timing event. For example, if an ability is resolved “At the start of combat,” it can be resolved at the start of each combat.</RuleText>
-      <RuleText number='1.17' subheading='Component-Specific Rules' />
-      <RuleText number='1.18'>The opening paragraph of each ability found on an action card describes when a player can resolve that card’s ability.</RuleText>
-      <RuleText number='1.19'>The opening paragraph of most abilities found on promissory notes describes when a player can resolve that card’s ability.
+      <RuleText number='1.16'>Effects that occur “when” an event happens take priority over effects that occur “after” an event happens.</RuleText>
+      <RuleText number='1.17'>If an ability uses the word “then,” a player must resolve the effect that occurs before the word “then” before resolving the effect that occurs after the word “then.”</RuleText>
+      <RuleText number='1.18'>Each ability can be resolved once for each occurrence of that ability’s timing event. For example, if an ability is resolved “At the start of combat,” it can be resolved at the start of each combat.</RuleText>
+      <RuleText number='1.19'>If there are multiple abilities that players wish to resolve at the same time during the action phase, each player takes a turn resolving an ability in initiative order, beginning with the active player. This process continues until each player has resolved each ability that they wish to resolve during that window.</RuleText>
+      <RuleText number='1.20'>If there are multiple abilities that players wish to resolve at the same time during the strategy or agenda phases, players take turns resolving abilities starting with the speaker and proceeding clockwise. This process continues until each player has resolved each ability that they wish to resolve during that window.</RuleText>
+      <RuleText number='1.21' subheading='Component-Specific Rules' />
+      <RuleText number='1.22'>The opening paragraph of each ability found on an action card describes when a player can resolve that card’s ability.</RuleText>
+      <RuleText number='1.23'>The opening paragraph of most abilities found on promissory notes describes when a player can resolve that card’s ability.
       <ul>
           <li>Some promissory notes have abilities that trigger as soon as a player receives the card.</li>
         </ul>
       </RuleText>
-      <RuleText number='1.20'>Abilities on agenda cards correspond to an outcome. Players resolve these abilities during the agenda phase after players vote for a particular outcome.</RuleText>
-      <RuleText number='1.21'>Each faction has faction abilities presented on its faction sheet. Each faction’s flagship has one or more unique abilities. Some abilities provide players with perpetual effects.</RuleText>
-      <RuleText number='1.22'>Some units have unit abilities. These abilities are named and presented above a unit’s attributes on a player’s faction sheet or on a unit upgrade card. Each unit ability has unique rules for when a player can resolve that ability. The following abilities are unit abilities:
+      <RuleText number='1.24'>Abilities on agenda cards correspond to an outcome. Players resolve these abilities during the agenda phase after players vote for a particular outcome.</RuleText>
+      <RuleText number='1.25'>Each faction has faction abilities presented on its faction sheet. Each faction’s flagship has one or more unique abilities. Some abilities provide players with perpetual effects.</RuleText>
+      <RuleText number='1.26'>Some units have unit abilities. These abilities are named and presented above a unit’s attributes on a player’s faction sheet or on a unit upgrade card. Each unit ability has unique rules for when a player can resolve that ability. The following abilities are unit abilities:
       <ul>
           <li>Anti-Fighter Barrage</li>
           <li>Bombardment</li>
+          <li>Deploy</li>
           <li>Planetary Shield</li>
           <li>Production</li>
           <li>Space Cannon</li>
           <li>Sustain Damage</li>
         </ul>
       </RuleText>
-      <RuleText number='1.23'>If a unit’s ability uses the phrase “this system” or “this planet,” the ability is referring to the system or planet that contains that unit.</RuleText>
+      <RuleText number='1.27'>If a unit’s ability uses the phrase “this system” or “this planet,” the ability is referring to the system or planet that contains that unit.</RuleText>
     </RuleSection>
 
     <RuleSection
