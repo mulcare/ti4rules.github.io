@@ -295,10 +295,16 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     <RuleSection
       number='12'
       title='Attach'
-      related={['Agenda Card', 'Control', 'Planets']}>
+      related={['Agenda Card', 'Control', 'Exploration', 'Planets']}>
       <RuleText>Some game effects instruct a player to attach a card to a planet card. A card that is attached to a planet card modifies that planet card in some way.</RuleText>
       <RuleText number='12.1'>To attach a card to a planet card, a player places the card with the attach effect partially underneath the planet card.</RuleText>
-      <RuleText number='12.2'>If a player gains or loses control of planet that contains a card with an attach effect, the attached card stays with that planet.</RuleText>
+      <RuleText number='12.2'>If a player gains or loses control of planet that contains a card with an attach effect, the attached card stays with that planet.
+        <ul>
+          <li>The attached card maintains its exhausted or readied state.</li>
+          <li>If a planet card is purged, also purge all cards that are attached to that planet card and remove the corresponding attachment tokens from the game board.</li>
+        </ul>
+      </RuleText>
+      <RuleText number ='12.3'>When a card is attached to a planet card, place the corresponding attachment token on that planet on the game board.</RuleText>
 
     </RuleSection>
 
