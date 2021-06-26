@@ -162,7 +162,7 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     <RuleSection
       number='6'
       title='Adjacency'
-      related={['Movement', 'Neighbors', 'Wormholes']}>
+      related={['Hyperlanes', 'Movement', 'Neighbors', 'Wormhole Nexus', 'Wormholes']}>
       <RuleText>Two system tiles are adjacent to each other if any of the tiles’ edges are touching each another.</RuleText>
       <RuleText number='6.1'>A system that has a wormhole is treated as being adjacent to a system that has a matching wormhole.</RuleText>
       <RuleText number='6.2'>A unit or planet is adjacent to all system tiles that are adjacent to the system tile that contains that unit or planet.
@@ -171,6 +171,7 @@ secondary abilities of the “Politics” strategy card.</RuleText>
         </ul>
       </RuleText>
       <RuleText number='6.3'>A planet counts as being adjacent to the system that contains that planet.</RuleText>
+      <RuleText number='6.4'>Systems that are connected by lines drawn across one or more hyperlane tiles are adjacent for all purposes.</RuleText>
     </RuleSection>
 
     <RuleSection
