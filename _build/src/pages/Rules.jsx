@@ -370,6 +370,31 @@ secondary abilities of the “Politics” strategy card.</RuleText>
 
     <RuleSection
       number='17'
+      title='Capture'
+      related={['Blockaded', 'Fighter Tokens', 'Ground Combat', 'Infantry Tokens', 'Space Combat']}>
+      <RuleText>Some abilities instruct a player to capture a unit, preventing the unit’s original owner from using it.</RuleText>
+      <RuleText number='17.1'>If a player captures a non-fighter ship or mech, they place it on their faction sheet. When such a unit is returned, it is placed into the reinforcements of the original owner.</RuleText>
+      <RuleText number='17.2'>A captured non-fighter ship or mech is returned under the following circumstances:
+      <ul>
+        <li>If the player who captured the unit agrees to return it as part of a transaction.</li>
+        <li>If an ability instructs the capturing player to return the unit as part of an ability’s cost.</li>
+        <li>If the player whose unit was captured blockades a space dock of the player who captured the unit.</li>
+      </ul>
+      </RuleText>
+      <RuleText number='17.3'>If a player captures a fighter or infantry, it is placed in its reinforcements instead of on the capturing player’s faction sheet; the capturing player places a fighter or infantry token from the supply on their faction sheet instead.</RuleText>
+      <RuleText number='17.4'>Captured fighters and infantry do not belong to any player and are returned only when an ability instructs the capturing player to do so.
+      <ul>
+        <li>Captured fighters and infantry cannot be returned as part of a transaction.</li>
+        <li>Captured fighters and infantry are not returned as the result of a blockade.</li>
+        <li>When a captured fighter or infantry is returned, it is placed in the supply.</li>
+      </ul>
+      </RuleText>
+      <RuleText number='17.5'>While a unit is captured, it cannot be produced or placed by its original owner until it is returned.</RuleText>
+      <RuleText number='17.6'>If one or more of a player’s space docks is being blockaded, that player cannot capture units from the blockading players.</RuleText>
+    </RuleSection>
+    
+    <RuleSection
+      number='17'
       title='Combat (Attribute)'
       related={['Ground Combat', 'Invasion', 'Space Combat']}>
       <RuleText>Combat is an attribute of some units that is presented on those units’ faction sheets and technology cards.</RuleText>
