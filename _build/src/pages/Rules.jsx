@@ -360,8 +360,9 @@ secondary abilities of the “Politics” strategy card.</RuleText>
       <RuleText number='16.2'>The combined capacity values of a player’s ships in a system determine the number of fighters and ground forces he can have in that system’s space area.</RuleText>
       <RuleText number='16.3'>If a player has more fighters and ground forces in the space area of a system than the total capacity of his ships in that system, he must destroy the excess units of his choice.
         <ul>
+          <li>A player can choose which of their excess units to remove.</li>
           <li>Ground forces on planets do not count against capacity.</li>
-          <li>A player’s fighters and ground forces can exceed capacity during combat. At the end of combat, he must destroy the excess units.</li>
+          <li>A player’s fighters and ground forces do not count against capacity during combat. At the end of combat, any excess units are removed and returned to that player’s reinforcements.</li>
         </ul>
       </RuleText>
       <RuleText number='16.4'>Fighters and ground forces are not assigned to specific ships, except while they are being transported.</RuleText>
