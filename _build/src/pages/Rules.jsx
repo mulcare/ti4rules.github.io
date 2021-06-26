@@ -127,6 +127,7 @@ secondary abilities of the “Politics” strategy card.</RuleText>
           <li>A player that has passed can still resolve the secondary ability of other players’ strategy cards.</li>
           <li>It is possible for a player to perform multiple, consecutive actions during an action phase if all other players have passed during that action phase.</li>
         </ul>
+      </RuleText>
 
       <RuleText number='3.4'>A player cannot pass until they have performed the strategic action of their strategy card.
         <ul>
