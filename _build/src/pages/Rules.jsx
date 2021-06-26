@@ -322,6 +322,11 @@ secondary abilities of the “Politics” strategy card.</RuleText>
       related={['Producing Units', 'Ships']}>
       <RuleText>A player’s unit with “Production” is blockaded if it is in a system that contains another player’s ships but does not contain any of his own ships.</RuleText>
       <RuleText number='14.1'>A player cannot use a blockaded unit to produce ships; he can still use a blockaded unit to produce ground forces.</RuleText>
+      <RuleText number='14.2'>When a player blockades another player’s space dock, if the blockaded player has captured any of the blockading player’s units, those units are returned to the blockading player’s reinforcements.
+      <ul>
+        <li>While a player is blockading another player, the blockaded player cannot capture any of the blockading player’s units.</li>
+      </ul>
+      </RuleText>
     </RuleSection>
 
     <RuleSection
