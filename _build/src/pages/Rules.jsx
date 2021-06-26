@@ -247,7 +247,11 @@ secondary abilities of the “Politics” strategy card.</RuleText>
       related={['Asteroid Field', 'Gravity Rift', 'Movement', 'Nebula', 'Supernova', 'System Tiles']}>
       <RuleText>An anomaly is a system tile that has unique rules.</RuleText>
       <RuleText number='9.1'>An anomaly is identified by a red border located on the tile’s corners.</RuleText>
-      <RuleText number='9.2'>There are four types of anomalies: asteroid fields, nebulae, supernovas, and gravity rifts.</RuleText>
+      <RuleText number='9.2'>There are four types of anomalies: asteroid fields, nebulae, supernovas, and gravity rifts.
+        <ul>
+          <li>Some anomalies contain planets; those systems are still anomalies.</li>
+        </ul>
+      </RuleText>
       <RuleText number='9.3'>Each type of anomaly is identified by its art, as follows:
         <RuleImageBlock images={[
           { path: '/images/anomaly-asteroids.png', label: 'Asteroid Field' },
@@ -256,6 +260,8 @@ secondary abilities of the “Politics” strategy card.</RuleText>
           { path: '/images/anomaly-rift.png', label: 'Gravity Rift' }
         ]} />
       </RuleText>
+      <RuleText number='9.4'>Abilities can cause a system tile to become an anomaly; that system tile is an anomaly in addition to its other properties.</RuleText>
+      <RuleText number='9.5'>Abilities can cause a system to be two different anomalies; that system has the properties of both anomalies.</RuleText>
     </RuleSection>
 
     <RuleSection
