@@ -123,13 +123,12 @@ secondary abilities of the “Politics” strategy card.</RuleText>
 
       <RuleText number='3.3'>After a player has passed, he takes no further turns and cannot perform additional actions during that action phase.
         <ul>
-          <li>A player can still resolve transactions and “at the start of your turn” abilities on the turn that he passes only.</li>
+          <li>During a turn that a player passes, they can resolve transactions and “at the start of your turn” abilities.</li>
           <li>A player that has passed can still resolve the secondary ability of other players’ strategy cards.</li>
           <li>It is possible for a player to perform multiple, consecutive actions during an action phase if all other players have passed during that action phase.</li>
         </ul>
-      </RuleText>
 
-      <RuleText number='3.4'>A player cannot pass until he has performed a strategic action.
+      <RuleText number='3.4'>A player cannot pass until they have performed the strategic action of their strategy card.
         <ul>
           <li>During a three-player or four-player game, a player cannot pass until he has exhausted both of his strategy cards.</li>
         </ul>
