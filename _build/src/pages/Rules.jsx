@@ -271,9 +271,10 @@ secondary abilities of the “Politics” strategy card.</RuleText>
       <RuleText>A unit with the “Anti-Fighter Barrage” ability may be able to destroy an opponent’s fighters at the start of the first round of a space combat. During the “Anti-Fighter Barrage” step of space combat, players perform the following steps:</RuleText>
       <RuleText number='10.1'>STEP 1—Each player rolls dice for each of his units in the combat that has the “Anti-Fighter Barrage” ability; this is called an anti-fighter barrage roll. A hit is produced for each die roll that is equal to or greater than the unit’s anti-fighter barrage value.
         <ul>
-          <li>If a unit has an “Anti-Fighter Barrage” ability, it is presented on its faction sheet and technology cards.</li>
-          <li>The “Anti-Fighter Barrage” ability is displayed as “Anti- Fighter Barrage X (Y).” The X is the minimum value needed for a die to produce a hit, and Y is the number of dice rolled.</li>
-          <li>Game effects that reroll, modify, or otherwise affect combat rolls do not affect anti-fighter barrage rolls</li>
+          <li>A unit’s “Anti-Fighter Barrage” ability is presented along with a unit’s attributes on faction sheets and unit upgrade technology cards.</li>
+          <li>The “Anti-Fighter Barrage” ability is displayed as “Anti-Fighter Barrage X (Y).” The X is the minimum value needed for a die to produce a hit, and Y is the number of dice rolled.</li>
+          <li>Game effects that reroll, modify, or otherwise affect combat rolls do not affect anti-fighter barrage rolls.</li>
+          <li>This ability can still be used if no fighters are present; hits produced may be used to trigger specific abilities.</li>
         </ul>
       </RuleText>
       <RuleText number='10.2'>STEP 2:—Each player must choose and destroy one of his fighters in the active system for each hit his opponent’s anti- fighter barrage roll produced.
