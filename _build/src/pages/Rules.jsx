@@ -413,30 +413,30 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     </RuleSection>
 
     <RuleSection
-      number='19'
+      number='20'
       title='Command Tokens'
       related={['Fleet Pool', 'Leadership', 'Reinforcements', 'Strategic Action', 'Tactical Action']}>
       <RuleText>Command tokens are a currency that players use to perform actions and expand their fleets.</RuleText>
-      <RuleText number='19.1'>A player begins the game with eight command tokens on his command sheet: three in his tactic pool, three in his fleet pool, and two in his strategy pool.
+      <RuleText number='20.1'>Each player begins the game with eight tokens on their command sheet: three in their tactic pool, three in their fleet pool, and two in their strategy pool.
         <ul>
           <li>Command tokens in the strategy and tactic pool are placed with the faction symbol faceup.</li>
           <li>Command tokens in the fleet pool are placed with the ship silhouette faceup.</li>
         </ul>
       </RuleText>
-      <RuleText number='19.2'>When a player gains a command token, he chooses which of the three pools on his command sheet to place it in.</RuleText>
-      <RuleText number='19.3'>A player is limited by the amount of command tokens in his reinforcements.
+      <RuleText number='20.2'>When a player gains a command token, they choose which of their three pools to place it in.</RuleText>
+      <RuleText number='20.3'>A player is limited by the amount of command tokens in their reinforcements.
         <ul>
-          <li>If he would gain a command token but has none available in his reinforcements, he cannot gain that command token.</li>
-          <li>If a game effect would place a player’s command token onto the board from his reinforcements and none are available, he must take a token from one of the pools on his command sheet.</li>
+          <li>If a player would gain a command token but has none available in their reinforcements, that player cannot gain that command token.</li>
+          <li>If a game effect would place a player’s command token from their reinforcements and none are available, that player must take a token from a pool on their command sheet, unless the token would be placed into a system that already contains one of their command tokens.</li>
         </ul>
       </RuleText>
-      <RuleText number='19.4'>During the action phase, a player can perform a tactical action by spending a command token from his tactic pool; he places the command token in a system.</RuleText>
-      <RuleText number='19.5'>After a player performs a strategic action during the action phase, each other player can resolve the secondary ability of that strategy card by spending a command token from his own strategy pool.
+      <RuleText number='20.4'>During the action phase, a player can perform a tactical action by spending a command token from their tactic pool; they place the command token in a system.</RuleText>
+      <RuleText number='20.5'>After a player performs a strategic action during the action phase, each other player can resolve the secondary ability of that strategy card by spending a command token from their strategy pool.
         <ul>
           <li>A player does not spend a command token to resolve the secondary ability of the “Leadership” strategy card.</li>
         </ul>
       </RuleText>
-      <RuleText number='19.6'>If a game effect would place a player’s command token into a system where he already has one, he returns the second command token to his reinforcements.</RuleText>
+      <RuleText number='20.6'>If a game effect would place a player’s command token in a system where they already have one, they place the token in their reinforcements instead. Any effects that resolve by placing that token are resolved as normal.</RuleText>
     </RuleSection>
 
     <RuleSection
