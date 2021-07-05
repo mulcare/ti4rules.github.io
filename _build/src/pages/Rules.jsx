@@ -403,13 +403,13 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     </RuleSection>
 
     <RuleSection
-      number='18'
+      number='19'
       title='Command Sheet'
       related={['Command Tokens', 'Fleet Pool', 'Strategic Action', 'Tactical Action', 'Trade Goods']}>
       <RuleText>Each player has a command sheet that contains a strategy pool, a tactic pool, a fleet pool, a trade good area, and a quick reference.</RuleText>
-      <RuleText number='18.1'>A player places command tokens in his pools; players can use these command tokens to perform strategic and tactical actions and to increase the number of ships they can have in each system.</RuleText>
-      <RuleText number='18.2'>A player places trade good tokens in his trade good area; these tokens can be spent as resources, influence, or to resolve certain game effects that require trade goods.</RuleText>
-      <RuleText number='18.3'>Players who are familiar with the game can hide the quick reference by placing that portion of the command sheet under their faction sheets.</RuleText>
+      <RuleText number='19.1'>The pools on the command sheet are where players place their command tokens. Command tokens in a player’s pools are used by that player to perform strategic and tactical actions and to increase the number of ships that player can have in each system.</RuleText>
+      <RuleText number='19.2'>The trade good area on the command sheet is where a player places their trade good tokens; trade tokens in a player’s trade good area can be spent by that player as resources, influence, or to resolve certain game effects that require trade goods.</RuleText>
+      <RuleText number='19.3'>Players who are familiar with the game can hide the quick reference by placing that portion of the command sheet under their faction sheets.</RuleText>
     </RuleSection>
 
     <RuleSection
