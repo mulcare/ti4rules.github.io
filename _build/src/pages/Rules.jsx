@@ -472,12 +472,12 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     </RuleSection>
 
     <RuleSection
-      number='22'
+      number='23'
       title='Component Limitations'
       related={['Producing Units', 'Units']}>
       <RuleText>If a component type is depleted during the game, players obey the following rules:</RuleText>
-      <RuleText number='22.1'>DICE: Dice are limitless. If a player needs to roll more dice than the game provides, he should roll as many as possible, record the results, and then reroll dice as necessary.</RuleText>
-      <RuleText number='22.2'>TOKENS: Tokens are limited to those included in the game, except for the following:
+      <RuleText number='23.1'>DICE:Dice are limitless. If a player needs to roll more dice than the game provides, that player should roll as many as possible, record the results, and then reroll dice as necessary.</RuleText>
+      <RuleText number='23.2'>TOKENS: Tokens are limited to those included in the game, except for the following:
         <ul>
           <li>Control Tokens</li>
           <li>Fighter Tokens</li>
@@ -485,14 +485,14 @@ secondary abilities of the “Politics” strategy card.</RuleText>
           <li>Infantry Tokens</li>
         </ul>
       </RuleText>
-      <RuleText number='22.3'>If any of the above tokens are depleted, players can use a suitable substitute, such as a coin or bead.</RuleText>
-      <RuleText number='22.4'>UNITS: Units are limited to those included in the game, except for fighters and ground forces.
+      <RuleText number='23.3'>If any of the above tokens are depleted, players can use a suitable substitute, such as a coin or bead.</RuleText>
+      <RuleText number='23.4'>UNITS: Units are limited to those included in the game, except for fighters and ground forces.
         <ul>
-          <li>When placing units, if a player does not have enough units in his reinforcements, he can remove units from any systems that do not contain one of his command tokens and place them in his reinforcements. Then, he can place any units that he removed. He cannot remove units in this way unless he is immediately placing a unit of that type.</li>
+          <li>When a player would place a unit, if there are none of that type left in their reinforcements, that player can remove a unit from any system that does not contain one of their command tokens and place that unit in their reinforcements. A player can remove any number of their units in this way; however, any units that are removed must be placed immediately. Abilities cannot force a player to remove and place a unit in this manner.</li>
           <li>When producing a fighter or infantry unit, a player can use a fighter or infantry token, as appropriate, from the supply instead of a plastic piece. These tokens must be accompanied by at least one plastic piece of the same type; players can swap infantry and fighter tokens for plastic pieces at any time.</li>
         </ul>
       </RuleText>
-      <RuleText number='22.5'>CARDS: When a deck is depleted, players shuffle the deck’s discard pile and place it facedown to create a new deck.</RuleText>
+      <RuleText number='23.5'>CARDS: When a deck is depleted, players shuffle the deck’s discard pile and place it facedown to create a new deck.</RuleText>
     </RuleSection>
 
     <RuleSection
