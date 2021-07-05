@@ -461,14 +461,14 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     </RuleSection>
 
     <RuleSection
-      number='21'
+      number='22'
       title='Component Action'
-      related={['Abilities', 'Action Cards', 'Action Phase', 'Technology']}>
-      <RuleText>A component action is a type of action that a player can perform during his turn of an action phase.</RuleText>
-      <RuleText number='21.1'>Component actions can be found on various game components, including action cards, technology cards, and faction sheets. Each component action is indicated by an “Action” header.</RuleText>
-      <RuleText number='21.2'>To perform a component action, a player reads the action’s text and follows the instructions as described.</RuleText>
-      <RuleText number='21.3'>A component action cannot be performed if its ability cannot be completely resolved.</RuleText>
-      <RuleText number='21.4'>If a component action is canceled, it does not use that player’s action.</RuleText>
+      related={['Abilities', 'Action Cards', 'Action Phase', 'Exploration', 'Leaders', 'Promissory Notes', 'Relics', 'Technology']}>
+      <RuleText>A component action is a type of action that a player can perform during their turn of an action phase.</RuleText>
+      <RuleText number='22.1'>CComponent actions can be found on various game components, including action cards, technology cards, leaders, exploration cards, relics, promissory notes, and faction sheets. Each component action is indicated by an “Action” header.</RuleText>
+      <RuleText number='22.2'>To perform a component action, a player reads the action’s text and follows the instructions as described.</RuleText>
+      <RuleText number='22.3'>A component action cannot be performed if its ability cannot be completely resolved.</RuleText>
+      <RuleText number='22.4'>If a component action is canceled, it does not use that player’s action.</RuleText>
     </RuleSection>
 
     <RuleSection
