@@ -394,12 +394,12 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     </RuleSection>
     
     <RuleSection
-      number='17'
+      number='18'
       title='Combat (Attribute)'
       related={['Ground Combat', 'Invasion', 'Space Combat']}>
       <RuleText>Combat is an attribute of some units that is presented on those units’ faction sheets and technology cards.</RuleText>
-      <RuleText number='17.1'>During combat, if a unit’s combat roll produces a result equal to or greater than its combat value, it produces a hit.</RuleText>
-      <RuleText number='17.2'>If a unit’s combat value contains two or more burst icons, instead of rolling a single die, the player rolls one die for each burst icon when making that unit’s combat rolls.</RuleText>
+      <RuleText number='18.1'>During combat, if a unit’s combat roll produces a result equal to or greater than its combat value, it produces a hit.</RuleText>
+      <RuleText number='18.2'>If a unit’s combat value contains two or more burst icons, instead of rolling a single die, the player rolls one die for each burst icon when making that unit’s combat rolls.</RuleText>
     </RuleSection>
 
     <RuleSection
