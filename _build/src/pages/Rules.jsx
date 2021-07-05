@@ -496,21 +496,21 @@ secondary abilities of the “Politics” strategy card.</RuleText>
     </RuleSection>
 
     <RuleSection
-      number='23'
+      number='24'
       title='Construction (Strategy Card)'
       related={['Initiative Order', 'Strategic Action', 'Strategy Card', 'Structures']}>
       <RuleText>The “Construction” strategy card allows players to construct structures on planets they control. This card’s initiative value is “4.”</RuleText>
-      <RuleText number='23.1'>During the action phase, if the active player has the “Construction” strategy card, he can perform a strategic action to resolve that card’s primary ability.</RuleText>
-      <RuleText number='23.2'>To resolve the primary ability on the “Construction” strategy card, the active player may place either one PDS or one space dock on a planet he controls. Then, he may place an additional PDS on a planet he controls.
+      <RuleText number='24.1'>During the action phase, if the active player has the “Construction” strategy card, they can perform a strategic action to resolve that card’s primary ability.</RuleText>
+      <RuleText number='24.2'>To resolve the primary ability on the “Construction” strategy card, the active player may place either one PDS or one space dock on a planet they control. Then, that player may place an additional PDS on a planet they control.
         <ul>
           <li>The structures can be placed on the same planet or different planets.</li>
           <li>The structures can be placed in any systems, regardless of whether the player has a command token in the system or not.</li>
         </ul>
       </RuleText>
-      <RuleText number='23.3'>After the active player resolves the primary ability of the “Construction” strategy card, each other player, beginning with the player to the left of the active player and proceeding clockwise, may place one command token from his strategy pool in any system. If he already has a command token in that system, the spent token is returned to his reinforcements instead. Then, he places either one PDS or one space dock on a planet he controls in that system.</RuleText>
-      <RuleText number='23.4'>When a player places either a PDS or space dock using the “Construction” strategy card, he takes that PDS or space dock from his reinforcements.
+      <RuleText number='24.3'>After the active player resolves the primary ability of the “Construction” strategy card, each other player, beginning with the player to the left of the active player and proceeding clockwise, may spend one command token from their strategy pool and place that command token in any system. If that player already has a command token in that system, the spent token is returned to their reinforcements instead. Then, that player places either one PDS or one space dock on a planet they control in that system.</RuleText>
+      <RuleText number='24.4'>When a player places either a PDS or space dock using the “Construction” strategy card, they take that PDS or space dock from their reinforcements.
         <ul>
-          <li>If a player does not have enough units in his reinforcements, he can remove units from any systems that do not contain one of his command tokens and place them in his reinforcements. Then, he must place this unit on the game board as instructed by the effect placing the unit.</li>
+          <li>If a player does not have the unit in their reinforcements, that player can remove a unit from any system that does not contain one of their command tokens and place that unit in their reinforcements. Then, that player must place the unit on the game board as instructed by the effect that is placing the unit.</li>
         </ul>
       </RuleText>
     </RuleSection>
